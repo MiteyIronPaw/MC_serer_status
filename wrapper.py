@@ -7,7 +7,7 @@ from minecraft_query import MinecraftQuery
 
 def main():
     try:
-        query = MinecraftQuery("malomaxdew.brainswitch.se", 25565,
+        query = MinecraftQuery("server.url.here", 25565,
                                timeout=10,
                                retries=0)
         server_data = query.get_rules()
